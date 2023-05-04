@@ -2,15 +2,15 @@ class reverse_of_sentence
 {public static void main(String args[])
   {
   
-   String a="MATRU is a good boy unfortunately";
+   String exampleofstring="MATRU is a good boy unfortunately";
   
-   StringBuilder a1 = new StringBuilder(); 
+   StringBuilder exampleofstringbuilder = new StringBuilder(); 
    
-   a1.append(a);
+   exampleofstringbuilder.append(exampleofstring);
 
-   a1.reverse();
+   exampleofstringbuilder.reverse();
   
-  System.out.println(a1);
+  System.out.println(exampleofstringbuilder);
     
   
 
